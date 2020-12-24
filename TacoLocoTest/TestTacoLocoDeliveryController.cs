@@ -13,9 +13,7 @@ namespace TacoLocoTest
 		[TestMethod]
 		public void GetTacoLocoDeliveries_ShouldReturnAllTacoLocoDeliveries()
 		{
-			var aTestdeliveries = GetTestAllTacoLocoDeliveries();
-         // var aController = new TacoLocoDeliveryController(aTestdeliveries);
-         //var result = aTestdeliveries.Get();
+			var aTestdeliveries = GetTestAllTacoLocoDeliveries();        
          //Assert.IsNotNull(result);
          //Assert.AreEqual(2, result.Count());
 
